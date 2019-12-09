@@ -9,3 +9,14 @@
 // @import './sample';
 // 各ページ
 @import './pages/**';
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+ul {
+    display: flex;
+    margin: 50px;
+    li {
+        margin: 0 10px;
+    }
+}
