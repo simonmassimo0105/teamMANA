@@ -56,6 +56,71 @@ main {
     right: 254px;
     top:312px; 
 }
+
+section {
+    width: 1152px;
+    height: 130vh;
+    margin-top: 100px;
+}
+
+.section-theme {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-main {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec-box {
+    width: 30%;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.sec-box:hover {
+    box-shadow: 5px 5px 1px lightgray;
+}
+
+.secbox-img {
+    width: 100%;
+    height: 225px;
+}
+
+.sb-img {
+    width: 100%;
+}
+
+.secbox-article {
+    width: 100%;
+    height: 200px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sa-bottom {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    // border-bottom: solid 1px black;
+}
+
 footer {
     background-color: black;
     p {
