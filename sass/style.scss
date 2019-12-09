@@ -9,14 +9,54 @@
 // @import './sample';
 // 各ページ
 @import './pages/**';
+body {
+    width: 1152px;
+    margin: 0 auto;
+}
 nav {
     display: flex;
     justify-content: flex-end;
+    margin:30px;
 }
 ul {
     display: flex;
-    margin: 50px;
+
     li {
-        margin: 0 10px;
+        padding: 0 10px;
+        font-weight: bold;
     }
 }
+main {
+   p{
+      
+       font-size: 18px;
+   }
+}
+.main-img {
+    z-index: 50;
+    position: relative;
+
+}
+.left-img {
+    z-index: 100;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.right-img {
+    z-index: 100;
+    position: absolute;
+    right: 254px;
+    top:312px; 
+}
+footer {
+    background-color: black;
+    p {
+        color: white;
+        text-align: center;
+        height: 100px;
+    }
+}
+
+
+
