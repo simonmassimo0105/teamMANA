@@ -20,7 +20,7 @@ nav {
   justify-content: flex-end;
   margin-top: 50px;
   margin-bottom: 50px;
-  margin-right: -20px;
+  margin-right: -4%;
 }
 ul {
   display: flex;
@@ -41,22 +41,23 @@ main {
   }
 }
 .main-img {
+  width: 90%;
   display: block;
   margin: 0 auto;
   z-index: 50;
-  position: relative;
+//   position: relative;
 }
 .left-img {
   z-index: 100;
   position: absolute;
-  top: 30px;
-  left: 170px;
+  top: 2%;
+  left: 10%;
 }
 .right-img {
   z-index: 100;
   position: absolute;
-  right: 187px;
-  top: 352px;
+  right: 12%;
+  top: 49.5%;
 }
 
 section {
