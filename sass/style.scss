@@ -20,26 +20,35 @@ header {
 nav {
     display: flex;
     justify-content: flex-end;
-    margin:30px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-right: -220px;
 }
 ul {
     display: flex;
+    a {
+        text-decoration: none;
+        color: black;
+    }
 
     li {
         padding: 0 10px;
         font-weight: bold;
+        
     }
 }
 main {
+     text-align: center;
     p {
-        margin-top:10px;
-        margin-left: -50px;
+        margin: 30px;
+        margin-left: -650px;
         font-size: 20px;
-        font-weight: bold;
+    
 
     }
 }
 .main-img {
+    
     z-index: 50;
     position: relative;
 
@@ -47,13 +56,13 @@ main {
 .left-img {
     z-index: 100;
     position: absolute;
-    top: 10px;
-    left: 100px;
+    top: 30px;
+    left: 170px;
 }
 .right-img {
     z-index: 100;
     position: absolute;
-    right: 254px;
+    right: 187px;
     top:312px; 
 }
 
