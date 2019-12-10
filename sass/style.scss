@@ -168,7 +168,7 @@ section {
 
 footer {
   background-color: black;
-  
+
   p {
     color: white;
     text-align: center;
@@ -186,9 +186,8 @@ footer {
   .sp {
     display: block !important;
     margin-left: -13%;
-    
   }
- 
+
   li {
     display: none;
   }
@@ -206,21 +205,20 @@ footer {
     left: 3%;
     top: 5%;
   }
- header {
-   height: 170px;
- }
- main p {
-  text-align: center;
-  line-height: normal;
- }
- main br {
-   display: inline;
- }
- section {
-     margin-top: 30px;
- }
- .section-theme {
-     margin-bottom: 0px;
- }
-
+  header {
+    height: 170px;
+  }
+  main p {
+    text-align: center;
+    line-height: normal;
+  }
+  main br {
+    display: inline;
+  }
+  section {
+    margin-top: 30px;
+  }
+  .section-theme {
+    margin-bottom: 0px;
+  }
 }
