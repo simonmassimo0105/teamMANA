@@ -11,7 +11,7 @@
 @import "./pages/**";
 
 .container {
-  width: 1152px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -40,24 +40,31 @@ main {
     font-size: 20px;
   }
 }
+.all {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
 .main-img {
   width: 90%;
   display: block;
   margin: 0 auto;
   z-index: 50;
-//   position: relative;
+  
 }
 .left-img {
+  width:20%;
   z-index: 100;
   position: absolute;
-  top: 2%;
-  left: 10%;
+  top: -23%;
+  left: 0.5%;
 }
 .right-img {
   z-index: 100;
+  width:40%;
   position: absolute;
-  right: 12%;
-  top: 49.5%;
+  right: 0.2%;
+  top: 56%;
 }
 
 section {
