@@ -61,7 +61,7 @@ main {
 }
 
 section {
-  width: 1152px;
+  width: 100%;
   height: 130vh;
   margin-top: 100px;
 }
@@ -92,10 +92,13 @@ section {
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  h2 {
+      padding-left: 20px;
+  }
 }
 
 .sec-box:hover {
-  box-shadow: 5px 5px 1px lightgray;
+  box-shadow: 0 0 8px lightgray;
 }
 
 .secbox-img {
@@ -110,7 +113,7 @@ section {
 .secbox-article {
   width: 100%;
   height: 200px;
-  font-weight: bold;
+  font-family: serif;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -118,10 +121,36 @@ section {
 
 .sa-bottom {
   width: 100%;
-  height: 50px;
+  height: 30px;
   display: flex;
   justify-content: flex-end;
-  // border-bottom: solid 1px black;
+  margin-left: -20px;
+}
+
+.sa-bottom a:visited {
+    color: black;
+}
+
+.underline {
+    display: inline-block;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.underline::after {
+    background-color: black;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 2px;
+    right: 0;
+    position: absolute;
+    transition: .5s all;
+    width: 15%;
+}
+
+.underline:hover::after {
+    width: 100%;
 }
 
 footer {
