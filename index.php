@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>American Village</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="<?=  get_template_directory_uri(); ?>assets/css/reset.css">
+    <link rel="stylesheet" href="<?=  get_template_directory_uri(); ?>assets/css/style.css">
 </head>
 
 <body>
@@ -32,11 +32,11 @@
         </header>
         <main>
             <div class="all">
-                <img src="./assets/img/folder/visual_1_pc.png" class="main-img pc" alt="">
-                <img src="assets/img/folder/visual_1_sp.png" class="sp">
-                <img src="./assets/img/folder/logo.png" class="left-img" alt="">
-                <img src="./assets/img/folder/visual_text_pc.png" class="right-img pc" alt="">
-                <img src="./assets/img/folder/visual_text_sp.png" class="sp right-img">
+                <img src="<?=  get_template_directory_uri(); ?>./assets/img/folder/visual_1_pc.png" class="main-img pc" alt="">
+                <img src="<?=  get_template_directory_uri(); ?>assets/img/folder/visual_1_sp.png" class="sp">
+                <img src="<?=  get_template_directory_uri(); ?>./assets/img/folder/logo.png" class="left-img" alt="">
+                <img src="<?=  get_template_directory_uri(); ?>./assets/img/folder/visual_text_pc.png" class="right-img pc" alt="">
+                <img src="<?=  get_template_directory_uri(); ?>./assets/img/folder/visual_text_sp.png" class="sp right-img">
             </div>
             <p>進化し続ける「街」<br>アメリカンビレッジマガジン</p>
         </main>
@@ -47,7 +47,7 @@
             <div class="section-main">
                 <div class="sec-box">
                     <div class="secbox-img">
-                        <img src="assets/img/folder/post_img_1.png" class="sb-img" alt="">
+                        <img src="<?=  get_template_directory_uri(); ?>assets/img/folder/post_img_1.png" class="sb-img" alt="">
                     </div>
                     <div class="secbox-article">
                         <h2>2018 / 5 / 20</h2>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="sec-box">
                     <div class="secbox-img">
-                        <img src="assets/img/folder/post_img_2.png" class="sb-img" alt="">
+                        <img src="<?=  get_template_directory_uri(); ?>assets/img/folder/post_img_2.png" class="sb-img" alt="">
                     </div>
                     <div class="secbox-article">
                         <h2>2018 / 5 / 19</h2>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="sec-box">
                     <div class="secbox-img">
-                        <img src="assets/img/folder/post_img_3.png" class="sb-img" alt="">
+                        <img src="<?=  get_template_directory_uri(); ?>assets/img/folder/post_img_3.png" class="sb-img" alt="">
                     </div>
                     <div class="secbox-article">
                         <h2>2018 / 5 / 18</h2>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="sec-box">
                     <div class="secbox-img">
-                        <img src="assets/img/folder/post_img_4.png" class="sb-img" alt="">
+                        <img src="<?=  get_template_directory_uri(); ?>assets/img/folder/post_img_4.png" class="sb-img" alt="">
                     </div>
                     <div class="secbox-article">
                         <h2>2018 / 5 / 17</h2>
@@ -107,7 +107,7 @@
                 </div>
                 <div class="sec-box">
                     <div class="secbox-img">
-                        <img src="assets/img/folder/post_img_5.png" class="sb-img" alt="">
+                        <img src="<?=  get_template_directory_uri(); ?>assets/img/folder/post_img_5.png" class="sb-img" alt="">
                     </div>
                     <div class="secbox-article">
                         <h2>2018 / 5 / 16</h2>
@@ -122,7 +122,7 @@
                 </div>
                 <div class="sec-box">
                     <div class="secbox-img">
-                        <img src="assets/img/folder/post_img_6.png" class="sb-img" alt="">
+                        <img src="<?=  get_template_directory_uri(); ?>assets/img/folder/post_img_6.png" class="sb-img" alt="">
                     </div>
                     <div class="secbox-article">
                         <h2>2018 / 5 / 15</h2>
